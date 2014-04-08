@@ -2,7 +2,7 @@ clear all;
 clc;
 close all;
 
-res = 3; %resolution of the graphs 1mm = how many points
+res = 1; %resolution of the graphs 1mm = how many points
 num_cycles = input('How many cylces do you want to model?')
 frame = 0.05; %different between each image by how many time (radian)
 cycle = 0:frame:2*pi*num_cycles; 
@@ -43,6 +43,7 @@ disp(text)
 %loops
 [B_field] = magnetic_field_get_point(magnet_center,magnet_radius,B_0,res);
 text=['Finished configuration of magnetic field array'];
+imshow(B_field)
 disp(text)
 [B_field_stack]= magnetic_field_magnet_position(cycle,B_field,radius);
 text=['created magnetic field stack '];
