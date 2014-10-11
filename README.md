@@ -9,8 +9,9 @@ All input parameters are stored and can be changed in the main script: magnetic_
 
 The output of the scripts are:
 1. 4x6 plots of force acting on the cells in each well of a 24 well plate
-2. a pile of image that represents the forces acting on the cells at each time point
-3. a pile of image that represents the magnet movement
+2. a pile of image that represents the amplitude of forces acting on the cells at each time point
+3. a pile of 3D image that represents the magnet movement
+4. a pile of 2D image that represents the magnet movement
 
 
 
