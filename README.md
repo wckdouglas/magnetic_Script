@@ -3,7 +3,7 @@ magnetic_Script
 
 These are the scripts I created to model the magnetic force applied to the cells for the work:
 
-Laura R. Geuss, Douglas C. Wu, Divya Ramamoorthy, Corinne D Alford, Laura J. Suggs (2014). Effect of Magnetically Mediated Strain on Mouse Embryonic Stem Cell Differentiation into Cardiomyocytes (In preparation)
+[Laura R. Geuss, Douglas C. Wu, Divya Ramamoorthy, Corinne D Alford, Laura J. Suggs (2014). Paramagnetic Beads and Magnetically Mediated Strain Enhance Cardiomyogenesis in Mouse Embryoid Bodies. PloS one](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113982)
 
 All input parameters are stored and can be changed in the main script: magnetic_field.m
 
