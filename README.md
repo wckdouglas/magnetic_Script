@@ -13,6 +13,7 @@ The output of the scripts are:
 * a pile of image that represents the amplitude of forces acting on the cells at each time point
 * a pile of 3D image that represents the magnet movement
 * a pile of 2D image that represents the magnet movement
+
 ---
 magnetic_field.m controls all the varible input 
 
